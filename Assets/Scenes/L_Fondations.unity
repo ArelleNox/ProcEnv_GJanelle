@@ -2257,63 +2257,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 500646259}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &521999407
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 341884204403992893, guid: c5b1178514e02be42ba2abd093b7bb37, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 27.431623
-      objectReference: {fileID: 0}
-    - target: {fileID: 341884204403992893, guid: c5b1178514e02be42ba2abd093b7bb37, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.06222806
-      objectReference: {fileID: 0}
-    - target: {fileID: 341884204403992893, guid: c5b1178514e02be42ba2abd093b7bb37, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 31.742601
-      objectReference: {fileID: 0}
-    - target: {fileID: 341884204403992893, guid: c5b1178514e02be42ba2abd093b7bb37, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 341884204403992893, guid: c5b1178514e02be42ba2abd093b7bb37, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 341884204403992893, guid: c5b1178514e02be42ba2abd093b7bb37, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 341884204403992893, guid: c5b1178514e02be42ba2abd093b7bb37, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 341884204403992893, guid: c5b1178514e02be42ba2abd093b7bb37, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 341884204403992893, guid: c5b1178514e02be42ba2abd093b7bb37, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 341884204403992893, guid: c5b1178514e02be42ba2abd093b7bb37, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 341884204404356381, guid: c5b1178514e02be42ba2abd093b7bb37, type: 3}
-      propertyPath: m_Name
-      value: 1_Grass_2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c5b1178514e02be42ba2abd093b7bb37, type: 3}
 --- !u!1 &540087935
 GameObject:
   m_ObjectHideFlags: 0
@@ -7910,4 +7853,3 @@ SceneRoots:
   - {fileID: 949858996}
   - {fileID: 913297644}
   - {fileID: 1062991211}
-  - {fileID: 521999407}
