@@ -38,13 +38,24 @@ public class ScatterGenerator : MonoBehaviour
     {
         // décalage du bruit : dérivé de la seed, donc reproductible
         var offset = new Vector2(PointOps.Range(seed, 100, 0f, 500f), PointOps.Range(seed, 101, 0f, 500f));
-
+        var sw = System.Diagnostics.Stopwatch.StartNew();
+        
         var pts = PointOps.Grid(size, cellSize, seed, Vector3.zero);
+        Debug.Log("Grille : " + pts.Count);
         PointOps.NoiseDensity(pts, noiseFrequency, offset);
         pts = PointOps.FilterDensity(pts, minDensity);
+        Debug.Log("Après filtre de densité : " + pts.Count);
         PointOps.Randomize(pts, jitter, scaleRange.x, scaleRange.y);
         pts = PointOps.SelfPrune(pts, pruneRadius);
+        Debug.Log("Après anti-chevauchement : " + pts.Count);
+        
+        sw.Stop();
+        Debug.Log("Génération : " + sw.ElapsedMilliseconds + " ms");
+        
         return pts;
+        
+        
+        
     }
 
     // INSTANCIER
