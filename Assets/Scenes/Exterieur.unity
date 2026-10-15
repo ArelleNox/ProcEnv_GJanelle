@@ -382,10 +382,10 @@ MonoBehaviour:
   seed: 1
   rockSlopeStart: 28
   rockSlopeEnd: 42
-  lowLevel: 0.1
-  lowBlend: 0.05
+  lowLevel: 0
+  lowBlend: 0.068
   patchFrequency: 6
-  patchStart: 0.6
+  patchStart: 1
   patchEnd: 0.75
 --- !u!1 &2045863611
 GameObject:
