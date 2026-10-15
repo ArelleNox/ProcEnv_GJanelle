@@ -385,8 +385,8 @@ MonoBehaviour:
   lowLevel: 0
   lowBlend: 0.068
   patchFrequency: 6
-  patchStart: 1
-  patchEnd: 0.75
+  patchStart: 0.569
+  patchEnd: 0.867
 --- !u!1 &2045863611
 GameObject:
   m_ObjectHideFlags: 0
