@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f2d93aad374d78b5b02ca88efbd1a0, type: 3}
+  m_Name: B_Forest
+  m_EditorClassIdentifier: Assembly-CSharp::BiomeDefinition
+  biomeName: "For\xEAt"
+  minHeight: 0
+  maxHeight: 0.65
+  minSlope: 0
+  maxSlope: 35
+  minMoisture: 0
+  maxMoisture: 1
+  layers:
+  - layerName: Tree0
+    entries:
+    - prefab: {fileID: 403774947235653595, guid: 9936dbb6c76a99645bbd4abefbfa08e6, type: 3}
+      weight: 1
+    cellSize: 6
+    scaleRange: {x: 0.5, y: 0}
+    exclusionRadius: 2.5
+    minHeight: 0.08
+    maxHeight: 0.65
+    minSlope: 0
+    maxSlope: 25
+    noiseFrequency: 0.04
+    minDensity: 0.4
+    alignToSlope: 0
+  - layerName: Tree1
+    entries:
+    - prefab: {fileID: 4763368029876409534, guid: 6bb80db86f6b5a44588108d8b11c70b9, type: 3}
+      weight: 1
+    cellSize: 9
+    scaleRange: {x: 0.6, y: 1.1}
+    exclusionRadius: 1.8
+    minHeight: 0.08
+    maxHeight: 0.65
+    minSlope: 0
+    maxSlope: 30
+    noiseFrequency: 0.07
+    minDensity: 0.5
+    alignToSlope: 0
+  - layerName: Tree2
+    entries:
+    - prefab: {fileID: 8334609028737295118, guid: a07fccef257da45469e05b8746220e9e, type: 3}
+      weight: 1
+    cellSize: 4
+    scaleRange: {x: 0.3, y: 0.7}
+    exclusionRadius: 1
+    minHeight: 0.08
+    maxHeight: 0.65
+    minSlope: 0
+    maxSlope: 35
+    noiseFrequency: 0.12
+    minDensity: 0.6
+    alignToSlope: 0
+  - layerName: Bushes
+    entries:
+    - prefab: {fileID: 7944125220625427551, guid: fa94edaca72a37b408d701f2a6ef2348, type: 3}
+      weight: 1
+    - prefab: {fileID: 6321549689827405548, guid: ffcf65a7fba2bf34d8a3030e12523ebc, type: 3}
+      weight: 1
+    cellSize: 3
+    scaleRange: {x: 0.5, y: 1.2}
+    exclusionRadius: 0.8
+    minHeight: 0.08
+    maxHeight: 0.65
+    minSlope: 0
+    maxSlope: 35
+    noiseFrequency: 0.1
+    minDensity: 0.6
+    alignToSlope: 1

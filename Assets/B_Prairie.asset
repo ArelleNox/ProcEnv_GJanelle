@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f2d93aad374d78b5b02ca88efbd1a0, type: 3}
+  m_Name: B_Prairie
+  m_EditorClassIdentifier: Assembly-CSharp::BiomeDefinition
+  biomeName: Prairie
+  minHeight: 0
+  maxHeight: 0.65
+  minSlope: 0
+  maxSlope: 45
+  minMoisture: 0
+  maxMoisture: 1
+  layers:
+  - layerName: Tree
+    entries:
+    - prefab: {fileID: 3698641549931245303, guid: 2b57d84f021c24449b3c630bbf7d5236, type: 3}
+      weight: 1
+    - prefab: {fileID: 8497950161765416169, guid: dc3bc5687f50d134587ce95995b369fb, type: 3}
+      weight: 1
+    - prefab: {fileID: 3954395593401606647, guid: 5e0e1ee7467ad3c45a57a7aceb372eda, type: 3}
+      weight: 1
+    - prefab: {fileID: 5894985991780262650, guid: 22d09d82858254e4d93e8a422e5f3c40, type: 3}
+      weight: 1
+    - prefab: {fileID: 4750640771319214790, guid: aa21227c5f669fb40bf7d9a76623e7f7, type: 3}
+      weight: 1
+    cellSize: 25
+    scaleRange: {x: 0.8, y: 1.4}
+    exclusionRadius: 4
+    minHeight: 0
+    maxHeight: 0.65
+    minSlope: 0
+    maxSlope: 45
+    noiseFrequency: 0.05
+    minDensity: 0.6
+    alignToSlope: 0
+  - layerName: Bushe
+    entries:
+    - prefab: {fileID: 4098682636338160445, guid: d6f226d39c561d94ba0cab51fe723f85, type: 3}
+      weight: 1
+    - prefab: {fileID: 660150108920504687, guid: 21c5ef842797d234baa651f2aa0c5cd7, type: 3}
+      weight: 1
+    - prefab: {fileID: 1964386287930811083, guid: 1e3f291ded0286c4fa7339e0caa2c4a4, type: 3}
+      weight: 1
+    - prefab: {fileID: 6321549689827405548, guid: ffcf65a7fba2bf34d8a3030e12523ebc, type: 3}
+      weight: 1
+    - prefab: {fileID: 7944125220625427551, guid: fa94edaca72a37b408d701f2a6ef2348, type: 3}
+      weight: 1
+    cellSize: 2
+    scaleRange: {x: 0.5, y: 1.2}
+    exclusionRadius: 0.3
+    minHeight: 0
+    maxHeight: 0.65
+    minSlope: 0
+    maxSlope: 45
+    noiseFrequency: 0.15
+    minDensity: 0.7
+    alignToSlope: 1
