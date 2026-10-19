@@ -54,7 +54,7 @@ MonoBehaviour:
       weight: 1
     - prefab: {fileID: 7944125220625427551, guid: fa94edaca72a37b408d701f2a6ef2348, type: 3}
       weight: 1
-    cellSize: 2
+    cellSize: 4
     scaleRange: {x: 0.5, y: 1.2}
     exclusionRadius: 0.3
     minHeight: 0
