@@ -22,7 +22,7 @@ MonoBehaviour:
   layers:
   - layerName: Tree0
     entries:
-    - prefab: {fileID: 403774947235653595, guid: 9936dbb6c76a99645bbd4abefbfa08e6, type: 3}
+    - prefab: {fileID: -927199367670048503, guid: fc64fc23d15a9cd43a59d4ba5fcc1735, type: 3}
       weight: 1
     cellSize: 12
     scaleRange: {x: 0.5, y: 0}
