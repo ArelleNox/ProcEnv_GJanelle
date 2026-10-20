@@ -11,7 +11,7 @@ public class VegetationScatterEditor : Editor
         DrawDefaultInspector();
         var g = (VegetationScatter)target;
 
-        if (GUILayout.Button("Generate")) g.Generate();
+        if (GUILayout.Button("Generate"))
         {
             g.Generate();
             EditorUtility.SetDirty(g);

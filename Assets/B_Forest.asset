@@ -20,20 +20,6 @@ MonoBehaviour:
   minMoisture: 0
   maxMoisture: 1
   layers:
-  - layerName: Tree0
-    entries:
-    - prefab: {fileID: -927199367670048503, guid: fc64fc23d15a9cd43a59d4ba5fcc1735, type: 3}
-      weight: 1
-    cellSize: 12
-    scaleRange: {x: 0.5, y: 0}
-    exclusionRadius: 2.5
-    minHeight: 0.08
-    maxHeight: 0.65
-    minSlope: 0
-    maxSlope: 25
-    noiseFrequency: 0.04
-    minDensity: 0.4
-    alignToSlope: 0
   - layerName: Tree1
     entries:
     - prefab: {fileID: 4763368029876409534, guid: 6bb80db86f6b5a44588108d8b11c70b9, type: 3}

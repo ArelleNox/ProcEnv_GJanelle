@@ -78,15 +78,11 @@ MonoBehaviour:
     alignToSlope: 1
   - layerName: Dead_Tree
     entries:
-    - prefab: {fileID: 5490056782050477129, guid: 9873ac78cbbac3849a4f495b106f7916, type: 3}
-      weight: 1
     - prefab: {fileID: 4033381136665967543, guid: fdb2b04251fbf664a839057e45033801, type: 3}
       weight: 1
     - prefab: {fileID: 5375746388397249437, guid: 411f6aec73926a749b6bd9a5221acb53, type: 3}
       weight: 1
     - prefab: {fileID: 5775952914929765797, guid: d7de7b50155dde14684096c11820a8d7, type: 3}
-      weight: 1
-    - prefab: {fileID: 8085966203867175263, guid: 51737edd788341740876984e327c4ed5, type: 3}
       weight: 1
     cellSize: 12
     scaleRange: {x: 0.6, y: 1.3}
