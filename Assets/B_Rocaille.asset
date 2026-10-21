@@ -21,9 +21,7 @@ MonoBehaviour:
   maxMoisture: 1
   layers:
   - layerName: Rock_A
-    entries:
-    - prefab: {fileID: 6589589321197375081, guid: 602ccec130b251d4c9c5fff1115837d1, type: 3}
-      weight: 1
+    entries: []
     cellSize: 12
     scaleRange: {x: 2, y: 4}
     exclusionRadius: 3
